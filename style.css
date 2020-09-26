@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&family=Work+Sans&display=swap');
+.{
+    padding: 0;
+    margin: 0;
+    font-family:' work sans',sans-serif;
+    box-sizing: border-box;
+    margin-left: 20px;
+ 
+}
+
+.nav{
+    display: flex;
+    justify-content: none;
+    align-items: center;
+    background-color:white;
+    min-height:2vh;
+    color:white;
+}
+.logo{
+    height:60px;
+    position: absolute;
+    top:10px
+}
+.logo img{
+    height: 100px;
+    margin-left: 20px;
+}
+
+.nav ul{
+    display: flex;
+    font-family: 'work sans',sans-serif;
+    justify-content: space-around;
+    margin-left: 180px;
+    
+
+}
+.nav ul li{
+    margin-left: 50px;
+    list-style: none;
+    justify-content: space-around;
+
+}
+.nav ul li a{
+    color:#f67c92;
+    width:50%;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+   
+}
+.menu{
+    width:70px;
+    height:70px;
+    margin: 2px;
+    right:0;
+    float:right;
+    margin-left: 300px;
+    display: none;
+    position: absolute;
+    position:fixed;
+    top:0;
+   
+   
+}
+.header-text{
+    max-width: 350px;
+    margin-top: 140px;
+    font-family:' work sans',sans-serif;
+    justify-content: space-around;margin-left: 50px;
+
+}
+.h3{
+    font-size: 34px;
+}
+.common-button{
+ background: transparent;
+    height:40px;
+    width: 100;
+    outline:none;
+    border: 2px solid #f67c92;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    font-size:14px;
+}
+.header-text .common-button{
+    margin-top: 20px;
+}
+.main{
+    background-image: url("./img/background.png");
+    height:100vh;
+    background-position: center;
+    background-size: cover;
+
+}
+/*about*/
+.about{
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.left{
+    flex-basis:50%;
+}
+.left img{
+  width:100%;
+}
+.right{
+    flex-basis: 50%;
+    text-align: right;
+}
+.about-text{
+    max-width: 500px;
+    margin-right: 100px;
+    display: inline-block;
+    font-family: 'work sans',sans-serif;
+}
+/*feature*/
+.feature{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: 'work sans',sans-serif;
+}
+.feature-row
+{
+    width:80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.feature-col{
+    flex-basis:25%;
+    text-align: center;
+}
+.feature-col img{
+    width:150px;
+
+}
+.feature-btn{
+    margin:40px auto 0;
+    display:flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+/*course*/
+
+.course{
+    padding:100px 0;
+
+}
+.course-block{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: 'work sans',sans-serif;
+
+}
+.course-left{
+    flex-basis: 50%;
+    
+}
+.course-right{
+    flex-basis: 50%;
+}
+.course-right img{
+    width:100%;
+}
+/*offer*/
+.offer{
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.offer .left{
+    flex-basis:50%;
+}
+.offer .left img{
+  width:100%;
+}
+.offer .right{
+    flex-basis: 50%;
+    text-align: right;
+}
+.offer .about-text{
+    max-width: 500px;
+    margin-right:0px;
+    display: inline-block;
+    font-family: 'work sans',sans-serif;
+}
+.offer .common-button{
+    margin-right:40px;
+}
+/*contact*/
+.contact-block{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family:'work sans',sans-serif;
+}
+.contact-left,.contact-right{
+    flex-basis: 50%;
+}
+.contact-right img{
+    width: 100%;
+}
+form{
+    max-width: 350px;
+    margin: 30px 0;
+}
+form input{
+    width: 100%;
+    padding:12px 10px;
+    margin-bottom: 5px;
+    outline: none;
+    box-shadow: none;
+    box-sizing:border-box;
+    border:2px solid #fab3c4;
+
+}
+.btn-box{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.btn-box button{
+    flex-basis:48%;
+padding:10px 0;
+}
+/*footer*/
+.footer{
+    padding: 15px 0 30px;
+
+}
+hr{
+    width: 100%;
+    border: 0;
+    border-top: 1px solid #f67c92;                         
+
+}
+.footer-row{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-family:'work sans',sans-serif;
+    }
+.footer-left{
+    flex-basis: 50%;
+    margin-top: 60px;
+}
+.footer-right{
+    flex-basis: 35%;
+}
+.footer-link{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.link h4{
+    color:#f67c92;
+    margin-bottom: 20px;
+
+}
+.link small{
+    font-size: 13px;
+    color:#777
+}
+.footer-right .footer-info{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.footer-info{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+.footer-logo img{
+    width:100px;
+}
+.copyright-txt,.footer-logo{
+    flex-basis:40%;
+    color:#777;
+    margin-top: 70px;
+}
+.footer-logo button{
+    position: absolute;
+}
+/*social-icon*/
+.social-icon{
+    width:50px;
+    position: fixed;
+    top:50%;
+    left:30px;
+    transform:translate(-50%);
+    z-index: 1;
+}
+
+@media (max-width:1200px){
+    .nav{
+        width:100%;
+    }
+}
+@media (max-width:760px){
+    body{
+        overflow-x: hidden;
+    }
+    .nav{
+        position: absolute;
+        right: 0px;
+        height: 100vh;
+        top:8vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        width:40%;
+        transform: translate(100%);
+        transition: 0.5s ease;
+        position: absolute;
+      
+    }
+    .nav ul{
+        flex-direction: column;
+        margin-top: 0px;
+      
+     margin-left: 0px;
+    }
+    .nav ul li{
+        justify-content: space-around;
+        margin-top: 50px;
+    
+    }
+    .menu{
+        display: block;
+        top:30px;
+        right:20px;
+        cursor: pointer;
+    }
+    .nav-active{
+        transform:translate(0%);
+    }
+}
